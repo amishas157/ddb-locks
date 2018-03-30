@@ -1,0 +1,26 @@
+{
+  "name": "ddb-locks",
+  "version": "1.0.0",
+  "description": "A library providing transactional locks for aws dynamoDb tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape tests/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "aws",
+    "ddb",
+    "transaction",
+    "lock"
+  ],
+  "author": "amishas157",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/dyno": "^1.4.1",
+    "agentkeepalive": "^3.4.1",
+    "aws-sdk": "^2.216.1",
+    "nyc": "^11.6.0",
+    "sinon": "^4.4.10",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
